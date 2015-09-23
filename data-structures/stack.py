@@ -40,3 +40,32 @@ class Stack:
     temp = self.pop()
     self.push(temp)
     return temp
+
+# Quick tests
+test_stack = Stack(4)
+print test_stack.is_empty() == True
+
+test_stack.push(95)
+test_stack.push(1093)
+
+print test_stack.length() == 2
+print test_stack.pop() == 1093
+print test_stack.length() == 1
+
+test_stack.push(1)
+test_stack.push(2)
+test_stack.push(3)
+
+print test_stack.is_full() == True
+print test_stack.peek() == 3
+
+
+
+
+
+
+
+
+
+
+
