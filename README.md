@@ -12,8 +12,13 @@ List of topics to review
   * Linear Probing
   * Chained Hashing
 * Linked List
-* Binary Search Tree
+* Trees
+  * Binary Search Tree
+  * Red Black Tree
+  * AVL
+  * Splay Tree
 * Trie
+* Heap
 
 ### Algorithms
 * Breadth-first search
